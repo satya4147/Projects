@@ -1,0 +1,32 @@
+
+  .footer_menu{
+    padding: $paddingSm;
+
+    .ul{
+      text-align: left;
+      li{
+        margin-right: 15px;
+      }
+      a{
+        background: $Primarybg;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        transition: 0.5s;
+
+        &:hover{
+          background: $blackColor;
+        }
+
+      }
+    }
+    .copyrigth_aera{
+      p{
+        margin: 0;
+        font-weight: 600;
+      }
+    }
+  }

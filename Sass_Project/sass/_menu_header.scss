@@ -1,0 +1,40 @@
+
+.main_menu{
+  flex-basis: 68%;
+
+  ul{
+    text-align: right;
+    li{
+      margin-left: 15px;
+      position: relative;
+
+      &::after{
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        left: 0;
+        bottom: 0;
+        background: $Primarybg;
+        transition: 0.5s;
+      }
+      &:hover:after{
+        width: 100%;
+      }
+     
+
+      a{
+        display: block;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-family: $primaryFont;
+        font-weight: 600;
+
+        i{
+          display: none;
+        }
+      }
+    }
+   
+  }
+}

@@ -1,0 +1,32 @@
+
+/*Basic Layout styleing */
+    @import "Basic_layout";
+
+/* to_header Arear styleing */
+@import "top_header";
+
+/* Menu-header styleing */
+@import "menu_header";
+
+// main_hero styleing 
+@import "main_hero";
+
+//main_checkout styleing 
+ @import "checkout_aera";
+
+ //main about area 
+ @import "about_aera";
+  // main why_area styleing 
+  @import "why_aear";
+
+  // main liveing room 
+    @import "living_room";
+
+// Main contect_area styleing 
+@import "contect_area";
+
+// footer styleing
+@import "footer_menu";
+
+// Responsive styleing 
+@import "responsive";

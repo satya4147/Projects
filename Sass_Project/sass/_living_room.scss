@@ -1,0 +1,31 @@
+
+.living_room{
+  padding: $paddingLg;
+  h5{
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  h2{
+   font-size: 51px;
+  }
+  .inner{
+    margin-top: 25px;
+  }
+  .child-living{
+    background: $white;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    flex-basis: 32%;
+    text-align: center;
+
+    img{
+      border-radius: 10px 10px 0 0;
+    }
+    .inner_living{
+      padding: 24px;
+      h4{
+        font-size: 18px;
+      }
+    }
+  }
+}

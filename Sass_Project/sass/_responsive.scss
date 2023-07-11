@@ -1,0 +1,184 @@
+
+@media only screen and (min-width : 200px) and (max-width : 520px) {
+
+    h2{
+      font-size: 35px;
+    }
+    br{
+      display: none;
+
+    }
+    h3{
+      font-size: 25px;
+    }
+  //top_header
+    .header_area .top_header .info{
+      display: none;
+      height: 40px;
+      padding-top: 10px;
+
+      &:last-child{
+        display: block;
+        flex-basis: 100%;
+      }
+     .ul{
+        text-align: center;
+
+      }
+      
+    }
+    //main header
+    .header_area .menu_header .menu_logo {
+      flex-basis: unset;
+      flex-basis: 100%;
+      text-align: center; 
+      margin-bottom: 20px;  
+
+    p{
+      margin-left: 30%;
+    }
+    }
+    .main_menu{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      padding: 0;
+      background: $Primarybg;  
+        .ul{
+          text-align: center;
+          li{
+            margin: 0 0.5%;
+            color: #ffffff;
+            &:last-child{
+              display: none;
+            }
+            a{
+              color: #ffffff;
+              padding: 10px;
+
+              i{
+                display: block;
+                margin-bottom: 5px;
+              }
+            }
+            &:hover{
+              background: black;
+            }
+          }
+        }
+    
+    
+       }
+
+  // main hero 
+  .main_hero{
+    img{
+    height: 200px;
+    }
+    .inner_hero .content{
+      margin-left: 15px;
+      h2{
+        font-size: 26px;
+      }
+      p{
+        display: none;
+      }  
+      a{
+        margin: 0;
+        margin-bottom: -20%;
+      }  
+
+    }
+  }
+
+//checkout_aera styleing 
+
+  .checkout_aera .content{
+   margin-top: 20%;
+
+    .inner_checkout{
+      flex-direction: column;
+
+    }
+    .child_checkout{
+      flex-basis:100% ;
+      margin-bottom: 15px;
+
+      input[type="submit"]{
+       margin: 0;
+      }
+    }
+  }
+
+  //about_aera styleing 
+
+    .about_aera .inner{
+      flex-direction: column;
+      img{
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+      .inner_about{
+        h5{
+          margin-bottom: -15px;
+        }
+        h2{
+          margin-top: 10px;
+        
+        }
+       
+      }
+    }
+
+  //why_aear styleing
+
+    .why_aear .inner , .living_room .inner , .footer_menu .inner{
+     flex-direction: column;
+     margin-top: 25px;
+
+      }
+      .why_aear .child-why , .living_room .child-living{ 
+        margin-bottom: 15px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      .living_room{
+        h5{
+          font-size: 25px;
+        }
+        h2{
+          font-size: 30px;
+        }
+      }
+     
+.contect_area iframe{
+  height: 250px;
+}
+  .contect_area .inner_contect{
+    position: relative;
+    border-bottom: 1px solid #ffffff;
+  }
+
+    .footer_menu {
+      padding: 15px 0 80px;
+    }
+  .footer_menu .social_area ul{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer_menu .copyrigth_aera p{
+    text-align: center;
+  }
+
+    }
+    
+
+
+  
+
+       
+      
+

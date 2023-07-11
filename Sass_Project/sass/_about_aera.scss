@@ -1,0 +1,31 @@
+.about_aera{
+
+    padding: $paddingLg;
+    img{
+      margin-right: 25px;
+
+    }
+  .inner_about{
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      h5{
+        font-size: 24px;
+      }
+    h2{
+     font-size: 38px;
+    color: black;
+      font-family: $primaryFont;
+
+    }
+    strong{
+      font-size: 38px;
+      color: $Primarybg;
+      font-family: $primaryFont;
+    }
+    p{
+      font-size: 15px
+    }
+  }
+}
