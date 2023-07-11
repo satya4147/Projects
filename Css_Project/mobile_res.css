@@ -1,0 +1,106 @@
+
+  @media only screen and (min-width:200px) and (max-width:520px){
+
+    :root{
+      --purple : #5f27cd;
+      --light_purple :#F4EEFF;
+      --padding_lg : 45px 0;
+      --padding_sm : 10px 0;
+    }
+    .btn{
+
+      background: var(--purple);
+      color: #fff;
+      padding: 10px 15px;
+      margin: 12px 0px ;
+      display: inline-block;
+      text-align: center;
+        
+    }
+     
+      .top_header .top_container{
+        flex-direction: column;
+      }
+      .concat_info{
+        display: block;
+        text-align: center;
+        margin: 10px 5px;
+       
+      }
+      .social_area ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        
+      }
+
+      .main_header .container{
+        flex-direction: column;
+    }
+    .header_logo{
+      
+      padding: 10px 0 0 20px;
+      text-align: center;
+    }
+    
+    .main_menu ul li{
+  
+     padding-right: -10px;
+     font-size: 15px;
+
+  }
+
+    /* banner arear*/
+
+    .banner_menu .container_banner{
+
+     flex-direction: column;
+  }
+
+  .banner_text{
+    flex-basis: 100%;
+   padding-top: 20px;
+    order: 2;
+  }
+  .banner_img{
+
+    flex-basis: 100%;
+    order: 1;
+  }
+
+    .banner_text h4{
+
+        font-size: 30px;
+    }
+   
+    /* Service area */
+
+    .service_area  .container{
+      flex-direction: column;
+
+   }
+   .child_service {
+
+     padding: 20px;
+     flex-basis: 100%;
+     margin-bottom: 20px;
+   }
+
+    /* contect arear*/
+
+    .content_area .container{
+
+     flex-direction: column;
+      align-items: unset;
+      justify-content: stretch;
+    }
+    
+    .map_container{
+      flex-basis: 100%;
+    }
+  .map_container iframe{
+    height: 200px;
+  }
+    
+  }
